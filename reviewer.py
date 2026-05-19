@@ -370,7 +370,7 @@ def get_complexity_hint(code):
     if score > 500:
         return "large architecture review"
 
-    if score > 200:
+    if score > 100:
         return "complex code review"
 
     return "simple code review"
